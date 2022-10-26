@@ -9,7 +9,7 @@ public class FileReader {
         this.lines = readFile(pathToFile);
     }
 
-    public List<String> readFile(String pathToFile) {
+    private List<String> readFile(String pathToFile) {
         List<String> lines = new ArrayList<>();
         try (
                 FileInputStream inputStream = new FileInputStream(pathToFile);
