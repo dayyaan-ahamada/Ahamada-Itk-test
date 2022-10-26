@@ -6,7 +6,7 @@ public enum SensorType {
     private final String frenchName;
     private final int startIndex;
 
-    SensorType(String frenchName, int startIndex) {
+    private SensorType(String frenchName, int startIndex) {
         this.frenchName = frenchName;
         this.startIndex = startIndex;
     }
